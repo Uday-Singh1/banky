@@ -268,7 +268,7 @@ class App {
         this.header = new Header("body");
         this.bankyMain = new BankyMain("body");
 
-        this.GetDataFromApi = new GetDataFromApi("./data/transactions.json");
+        this.GetDataFromApi = new GetDataFromApi("data/transactions.json");
         
             this.GetDataFromApi
                 .getData().then( (data) => {

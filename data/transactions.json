@@ -1,0 +1,56 @@
+{
+  "items" : [
+    { 
+      "name": "Bankrekening",  
+      "icon": "fa-solid fa-house",
+      "transactions": [
+          {
+            "from/to": "Uday",
+          "amount": 10,
+          "icon": "fa-solid fa-briefcase"
+          },
+          {
+            "from/to": "DUO",
+            "amount": 100
+          
+        },
+        {
+          "from/to": "Visa",
+          "amount": -110
+        },
+        {
+          "from/to": "Vomar",
+          "amount": -20
+        },
+    
+        {
+          "from/to": "ZorgVerzekering",
+          "amount": 600
+        },
+    
+        {
+          "from/to": "Hypotheek",
+          "amount": 70
+        },
+    
+    
+        {
+          "from/to": "AutoVerzekering",
+          "amount": 70
+        }
+
+        ]
+      },
+      {
+        "name": "ZZP-Rekening",
+        "icon": "fa-solid fa-briefcase",
+        "transactions": [
+          {
+              "from/to": "Bedrijf X",
+              "amount": 10000
+          },
+          {
+              "from/to": "Bedrijf Z",
+              "amount": -500
+          }]
+      }]}
